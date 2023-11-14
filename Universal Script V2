@@ -70,6 +70,8 @@ Tab:AddLabel("Join Alexis Discord👇")
 
 Tab:AddLabel("https://discord.com/invite/eTTc8NgY")
 
+OrionLib:Init()
+
 OrionLib:MakeNotification({
 	Name = "Welcome!",
 	Content = "Ty For executing my script.",

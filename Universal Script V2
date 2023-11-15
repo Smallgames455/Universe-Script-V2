@@ -66,12 +66,11 @@ local Tab = Window:MakeTab({
 
 Tab:AddLabel("Hi Alex Made This Script")
 
-Name = "Join Alexis Discord Server",
+Name = "Discord server",
 	Callback = function()
-setclipboard("https://discord.com/invite/ZvGZrT3y")
-toclipboard("https://discord.com/invite/ZvGZrT3y")
+setclipboard("https://discord.com/invite/KXRS6rUmK")
+toclipboard("https://discord.com/invite/KXRS6rUmK")
       		print("button pressed")
-
 OrionLib:Init()
 
 OrionLib:MakeNotification({

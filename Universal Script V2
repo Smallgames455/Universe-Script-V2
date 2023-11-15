@@ -69,8 +69,8 @@ Tab:AddLabel("Hi Alex Made This Script")
 Tab:AddButton({
 	Name = "Discord server",
 	Callback = function()
-setclipboard("https://discord.com/invite/KXRS6rUmK")
-toclipboard("https://discord.com/invite/KXRS6rUmK")
+setclipboard("https://discord.com/invite/9VPGG8R9Sj")
+toclipboard("https://discord.com/invite/9VPGG8R9Sj")
       		print("button pressed")
   	end    
 })
@@ -79,5 +79,5 @@ OrionLib:MakeNotification({
 	Name = "Welcome!",
 	Content = "Ty For executing my script.",
 	Image = "rbxassetid://4483345998",
-	Time = 2
+	Time = 5
 })

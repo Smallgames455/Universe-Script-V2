@@ -20,6 +20,13 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddButton({
+	Name = "Bedol Hub (Op)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
+  	end    
+})
+
 local Tab = Window:MakeTab({
 	Name = "MM2",
 	Icon = "rbxassetid://4483345998",

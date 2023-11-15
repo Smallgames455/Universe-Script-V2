@@ -1,7 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "Alexis Universal V2", HidePremium = false, SaveConfig = true, ConfigFolder = "Alexis"})
-
+local Window = OrionLib:MakeWindow({Name = "Alexis Universal V2", HidePremium = false, SaveConfig = true, IntroText = "Welcome" })
 local Tab = Window:MakeTab({
 	Name = "Blade Ball",
 	Icon = "rbxassetid://4483345998",
@@ -64,16 +63,16 @@ local Tab = Window:MakeTab({
   	end    
 })
 
-Tab:AddLabel("Hi Alex Made This Script")
-
 Tab:AddButton({
-	Name = "Discord server",
+	Name = "Clik To Join D Alexis Hub Discord",
 	Callback = function()
 setclipboard("https://discord.com/invite/9VPGG8R9Sj")
 toclipboard("https://discord.com/invite/9VPGG8R9Sj")
       		print("button pressed")
   	end    
 })
+
+Tab:AddLabel("Hi Alex Made This Script")
 
 OrionLib:MakeNotification({
 	Name = "Welcome!",

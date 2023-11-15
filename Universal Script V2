@@ -72,6 +72,8 @@ setclipboard("https://discord.com/invite/ZvGZrT3y")
 toclipboard("https://discord.com/invite/ZvGZrT3y")
       		print("button pressed")
 
+OrionLib:Init()
+
 OrionLib:MakeNotification({
 	Name = "Welcome!",
 	Content = "Ty For executing my script.",

@@ -64,6 +64,13 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
+	Name = "Infinite Yeild",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+  	end   
+ })
+
+Tab:AddButton({
 	Name = "Click To Join Alexis Hub Discord",
 	Callback = function()
 setclipboard("https://discord.com/invite/9VPGG8R9Sj")
@@ -80,10 +87,3 @@ OrionLib:MakeNotification({
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
-
-Tab:AddButton({
-	Name = "Infinite Yeild",
-	Callback = function()
-      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
-  	end   
- })

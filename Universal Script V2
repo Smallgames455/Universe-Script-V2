@@ -14,13 +14,6 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "Neva Hub (OP)",
-	Callback = function()
-      		loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
-  	end    
-})
-
-Tab:AddButton({
 	Name = "Bedol Hub (Op)",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
@@ -71,7 +64,7 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "Clik To Join D Alexis Hub Discord",
+	Name = "Click To Join Alexis Hub Discord",
 	Callback = function()
 setclipboard("https://discord.com/invite/9VPGG8R9Sj")
 toclipboard("https://discord.com/invite/9VPGG8R9Sj")

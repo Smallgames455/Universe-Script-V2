@@ -5,7 +5,7 @@ local Tab = Window:MakeTab({
 	Name = "Blade Ball",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false})
-	
+
 	Tab:AddButton({
 	Name = "Auto Parry",
 	Callback = function()
@@ -48,6 +48,18 @@ Tab:AddButton({
 	Name = "items Giver",
 	Callback = function()
       		loadstring(game:HttpGet("https://freenote.biz/raw/qLlMYwbVNd",true))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Doors",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false}
+
+Tab:AddButton({
+	Name = "Script",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://pastebin.com/raw/R8QMbhzv')))()
   	end    
 })
 

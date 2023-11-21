@@ -97,8 +97,8 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Click To Join Alexis Hub Discord",
 	Callback = function()
-setclipboard("https://discord.com/invite/9VPGG8R9Sj")
-toclipboard("https://discord.com/invite/9VPGG8R9Sj")
+setclipboard("https://discord.com/invite/ZQWdRtHkG4")
+toclipboard("https://discord.com/invite/ZQWdRtHkG4")
       		print("button pressed")
   	end    
 })

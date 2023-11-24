@@ -89,6 +89,17 @@ local Tab = Window:MakeTab({
 })
 
 local Tab = Window:MakeTab({
+	Name = "TDR",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false})
+
+Tab:AddButton({
+	Name = "Camp Script",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/kureu/Roblox-T.R.D-Camp-Script/main/Roblox%20T.R.D%20Camp%20Script"))();
+  	end    
+
+local Tab = Window:MakeTab({
 	Name = "More",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false})

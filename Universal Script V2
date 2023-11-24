@@ -96,7 +96,7 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
 	Name = "Camp Script",
 	Callback = function()
-     		https://raw.githubusercontent.com/kureu/Roblox-T.R.D-Camp-Script/main/Roblox%20T.R.D%20Camp%20Script
+     		loadstring(game:HttpGet("https://raw.githubusercontent.com/kureu/Roblox-T.R.D-Camp-Script/main/Roblox%20T.R.D%20Camp%20Script"))();
   	end   
 })  
 
@@ -104,7 +104,7 @@ Tab:AddButton({
 	Name = "Movie Script",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/kureu/Roblox-T.R.D-Movies-Script/main/Protected_2790861193015493.lua"))();
-  	end  
+  	end   
 })
 
 local Tab = Window:MakeTab({

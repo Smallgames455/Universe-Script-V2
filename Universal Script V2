@@ -108,6 +108,18 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
+	Name = "Brookhaven 🎄",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false})
+
+Tab:AddButton({
+	Name = "Ice Hub 🧊",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
 	Name = "More 🎄",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false})

@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Alexis Universal V2.4 🎄", HidePremium = false, SaveConfig = true, IntroText = "Welcome" })
+local Window = OrionLib:MakeWindow({Name = "Alexis Universal V2.4.1 🧊", HidePremium = false, SaveConfig = true, IntroText = "Welcome" })
 
 local Tab = Window:MakeTab({
 	Name = "Blade Ball 🎄",

@@ -120,6 +120,18 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
+	Name = "Break In 2 🎄",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false})
+
+Tab:AddButton({
+	Name = "Hoho Hub 🧊",
+	Callback = function()
+      		loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-HoHo-Hub-+15-Games-2392"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
 	Name = "More 🎄",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false})

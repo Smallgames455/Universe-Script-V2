@@ -132,6 +132,18 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
+	Name = "PS99",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false})
+
+Tab:AddButton({
+	Name = "Redz Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/PetSimulator99/main/redz9999.lua"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
 	Name = "More 🎄",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false})

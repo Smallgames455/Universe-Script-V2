@@ -53,6 +53,18 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
+	Name = "Blox Fruits🎄",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false})
+
+Tab:AddButton({
+	Name = "Annie Hub ☃️",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Anniecuti/Free-Scr/main/Annie-Hub.lua"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
 	Name = "Doors 🎄",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false})

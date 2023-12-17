@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Alexis Universal V2.5 🧊", HidePremium = false, SaveConfig = true, IntroText = "Welcome" })
+local Window = OrionLib:MakeWindow({Name = "Alexis Universal V2.5.2 🧊", HidePremium = false, SaveConfig = true, IntroText = "Welcome" })
 
 local Tab = Window:MakeTab({
 	Name = "Blade Ball 🎄",
@@ -118,6 +118,18 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/kureu/Roblox-T.R.D-Movies-Script/main/Protected_2790861193015493.lua"))();
   	end    
 })
+
+local Tab = Window:MakeTab({
+	Name = "Evade 🎄",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false})
+Tab:AddButton({
+	Name = "Best Script ☃️",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/9Strew/roblox/main/gamescripts/evade.lua'))()
+  	end    
+})
+
 
 local Tab = Window:MakeTab({
 	Name = "Brookhaven 🎄",

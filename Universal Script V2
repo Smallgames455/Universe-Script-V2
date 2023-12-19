@@ -9,7 +9,7 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
 	Name = "Anti Lag ☃️",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/RTrade/Voidz/main/AntiAFK.lua",true))()
+      		loadstring(game:HttpGet("Ihttps://raw.githubusercontent.com/Smallgames455/Anti-lag/main/Anti%20lag",true))()
   	end    
 })
 

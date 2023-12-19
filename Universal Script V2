@@ -39,6 +39,34 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddButton({
+	Name = "NovaX Hub ☃️",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/kierpogihahaxd2/MANUAL/main/Script",true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Joe Hub ☃️",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/JoeBidenhub/JoeBidenHub-V2/main/script%20releases%20latest%20download",true))()
+  	end   
+})
+
+Tab:AddButton({
+	Name = "Darkrai Hub ☃️",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastefy.app/scPne8wv/raw",true))()
+  	end   
+})
+
+Tab:AddButton({
+	Name = "Emin X ☃️",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/EminenceXLua/Blade-your-Balls/main/BladeBallLoader.lua",true))()
+  	end   
+})
+
 local Tab = Window:MakeTab({
 	Name = "MM2 🎄",
 	Icon = "rbxassetid://4483345998",

@@ -21,6 +21,39 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
+	Name = "Executer Ui 🎄",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false})
+
+Tab:AddButton({
+	Name = "Krnl Ui ☃️",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/wtfplayer/redemption/main/krnlnoui.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Synapse X☃️",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/Chillz-s-scripts/main/Synapse-X-Remake.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Arceus X V3☃️",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "PxyPicel Ui ☃️",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/k00pz/Brandnew-ahh-ked/main/the-first-executer-from-pxypixel"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
 	Name = "Blade Ball 🎄",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false})

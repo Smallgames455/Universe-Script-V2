@@ -2,16 +2,21 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/tha
 local Window = OrionLib:MakeWindow({Name = "Alexis Universal V2.5.2 🧊", HidePremium = false, SaveConfig = true, IntroText = "Welcome" })
 
 local Tab = Window:MakeTab({
-	Name = "Credits 🎄",
+	Name = "Anti 🎄",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false})
-
-Tab:AddLabel("This Script Made By @notalex77. 🧊")
 
 Tab:AddButton({
 	Name = "Anti Lag ☃️",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Smallgames455/Anti-lag/main/Anti%20lag",true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/RTrade/Voidz/main/AntiAFK.lua",true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Anti Afk ☃️",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/RTrade/Voidz/main/AntiAFK.lua'),true))()
   	end    
 })
 

@@ -221,6 +221,13 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddButton({
+	Name = "Auto Fishing",
+	Callback = function()
+      		
+  	end    
+})
+
 local Tab = Window:MakeTab({
 	Name = "More 🎄",
 	Icon = "rbxassetid://4483345998",

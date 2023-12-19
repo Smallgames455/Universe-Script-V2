@@ -2,6 +2,18 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/tha
 local Window = OrionLib:MakeWindow({Name = "Alexis Universal V2.5.2 🧊", HidePremium = false, SaveConfig = true, IntroText = "Welcome" })
 
 local Tab = Window:MakeTab({
+	Name = "Anti 🎄",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false})
+
+Tab:AddButton({
+	Name = "Anti Lag ☃️",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Parry",true))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
 	Name = "Blade Ball 🎄",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false})

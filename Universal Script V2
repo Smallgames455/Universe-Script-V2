@@ -221,6 +221,10 @@ Tab:AddButton({
   	end    
 })
 
+local Section = Tab:AddSection({
+	Name = "Auto"
+})
+
 Tab:AddButton({
 	Name = "Auto Fishing",
 	Callback = function()

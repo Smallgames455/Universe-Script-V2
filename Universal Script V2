@@ -224,7 +224,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Auto Fishing",
 	Callback = function()
-      		
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Smallgames455/Auto-fishing/main/Auto%20Fishing%20script"))()
   	end    
 })
 

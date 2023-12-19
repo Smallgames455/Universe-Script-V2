@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Alexis Universal V2.5.2 🧊", HidePremium = false, SaveConfig = true, IntroText = "Welcome" })
+local Window = OrionLib:MakeWindow({Name = "Alexis Universal V2.6.2 🧊", HidePremium = false, SaveConfig = true, IntroText = "Welcome" })
 
 local Tab = Window:MakeTab({
 	Name = "Anti 🎄",
@@ -187,6 +187,13 @@ Tab:AddButton({
 	Name = "Ice Hub 🧊",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Redz Hub ❄️",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB"))()
   	end    
 })
 

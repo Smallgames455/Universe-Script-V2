@@ -9,7 +9,7 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
 	Name = "Anti Lag ☃️",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Parry",true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Smallgames455/Anti-lag/main/Anti%20lag",true))()
   	end    
 })
 

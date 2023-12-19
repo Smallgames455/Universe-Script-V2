@@ -2,9 +2,11 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/tha
 local Window = OrionLib:MakeWindow({Name = "Alexis Universal V2.5.2 🧊", HidePremium = false, SaveConfig = true, IntroText = "Welcome" })
 
 local Tab = Window:MakeTab({
-	Name = "Anti 🎄",
+	Name = "Credits 🎄",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false})
+
+Tab:AddLabel("This Script Made By @notalex77. 🧊")
 
 Tab:AddButton({
 	Name = "Anti Lag ☃️",

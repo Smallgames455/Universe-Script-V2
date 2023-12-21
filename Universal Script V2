@@ -2,9 +2,16 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/tha
 local Window = OrionLib:MakeWindow({Name = "Alexis Universal V2.6.2 🧊", HidePremium = false, SaveConfig = true, IntroText = "Welcome" })
 
 local Tab = Window:MakeTab({
-	Name = "Anti 🎄",
+	Name = "Misc 🎄",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false})
+
+Tab:AddButton({
+	Name = "Fe Emote ☃️",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FEmotesGui/main/FEmotesGui.lua", true))()
+  	end   
+})
 
 Tab:AddButton({
 	Name = "Anti Lag ☃️",
